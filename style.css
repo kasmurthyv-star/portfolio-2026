@@ -101,3 +101,37 @@ nav a {
 .submit-btn:hover {
     background-color: var(--dark);
 }
+/* Skills Section Styling */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.skill-item {
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.skill-item:hover {
+    transform: scale(1.1); /* Makes the icon pop when you hover */
+}
+
+.skill-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.skill-item p {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--dark);
+    margin: 0;
+}
